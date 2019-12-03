@@ -1,8 +1,8 @@
 #ifndef MANGA_H
 #define MANGA_H
+#include "title.h"
 
-
-class manga
+class manga : title
 {
 public:
     manga();

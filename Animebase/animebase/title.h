@@ -1,8 +1,8 @@
 #ifndef TITLE_H
 #define TITLE_H
+#include "universe.h"
 
-
-class title
+class title : univers
 {
 public:
     title();

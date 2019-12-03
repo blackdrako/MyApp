@@ -1,8 +1,8 @@
 #ifndef ANIME10_H
 #define ANIME10_H
+#include "anime.h"
 
-
-class anime10
+class anime10 : anime
 {
 public:
     anime10();

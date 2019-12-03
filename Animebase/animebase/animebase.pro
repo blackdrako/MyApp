@@ -28,6 +28,7 @@ SOURCES += \
         anime.cpp \
         anime10.cpp \
         anime24.cpp \
+        base.cpp \
         full_anime.cpp \
         main.cpp \
         mainwindow.cpp \
@@ -42,6 +43,8 @@ HEADERS += \
         anime.h \
         anime10.h \
         anime24.h \
+        base.h \
+        errorconfig.h \
         full_anime.h \
         mainwindow.h \
         manga.h \

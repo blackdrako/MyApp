@@ -1,8 +1,8 @@
 #ifndef ANIME_H
 #define ANIME_H
+#include "title.h"
 
-
-class anime
+class anime : title
 {
 public:
     anime();
