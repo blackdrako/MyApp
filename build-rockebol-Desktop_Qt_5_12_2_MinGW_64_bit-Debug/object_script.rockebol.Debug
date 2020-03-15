@@ -1,0 +1,16 @@
+debug/formloadgame.o
+debug/formsetting.o
+debug/formsettinggameplay.o
+debug/formsettinggraphic.o
+debug/formsettingsound.o
+debug/formstratgame.o
+debug/main.o
+debug/mainwindow.o
+debug/setting.o
+debug/moc_formloadgame.o
+debug/moc_formsetting.o
+debug/moc_formsettinggameplay.o
+debug/moc_formsettinggraphic.o
+debug/moc_formsettingsound.o
+debug/moc_formstratgame.o
+debug/moc_mainwindow.o

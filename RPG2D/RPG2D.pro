@@ -25,11 +25,13 @@ DEFINES += QT_DEPRECATED_WARNINGS
 CONFIG += c++11
 
 SOURCES += \
+        game.cpp \
         main.cpp \
         renderarea.cpp \
         window.cpp
 
 HEADERS += \
+        game.h \
         renderarea.h \
         window.h
 
