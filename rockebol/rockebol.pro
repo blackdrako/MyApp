@@ -25,28 +25,39 @@ DEFINES += QT_DEPRECATED_WARNINGS
 CONFIG += c++11
 
 SOURCES += \
+        battlemap.cpp \
+        character.cpp \
         formloadgame.cpp \
+        formquickmatch.cpp \
         formsetting.cpp \
         formsettinggameplay.cpp \
         formsettinggraphic.cpp \
         formsettingsound.cpp \
         formstratgame.cpp \
+        gameplay.cpp \
         main.cpp \
         mainwindow.cpp \
-        setting.cpp
+        setting.cpp \
+        worldmap.cpp
 
 HEADERS += \
+        battlemap.h \
+        character.h \
         formloadgame.h \
+        formquickmatch.h \
         formsetting.h \
         formsettinggameplay.h \
         formsettinggraphic.h \
         formsettingsound.h \
         formstratgame.h \
+        gameplay.h \
         mainwindow.h \
-        setting.h
+        setting.h \
+        worldmap.h
 
 FORMS += \
         formloadgame.ui \
+        formquickmatch.ui \
         formsetting.ui \
         formsettinggameplay.ui \
         formsettinggraphic.ui \
