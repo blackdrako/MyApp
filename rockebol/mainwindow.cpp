@@ -1,11 +1,13 @@
 #include "mainwindow.h"
 #include "ui_mainwindow.h"
-
+#include "setting.h"
 MainWindow::MainWindow(QWidget *parent) :
     QMainWindow(parent),
     ui(new Ui::MainWindow)
 {
     ui->setupUi(this);
+    this->resize(QApplication::);
+
     buttonStartGame = new QPushButton("Start Game",this);
     buttonStartGame->setGeometry(QRect(QPoint(100,100),QSize(200,50)));
     connect(buttonStartGame,SIGNAL(released()),this,SLOT (on_pushButton_clicked_StartGame()));
